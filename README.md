@@ -1,5 +1,4 @@
 # Vagrant Lamp Starter
----
 
 ## Introduction
 This is a beginner-friendly starter pack that will automate the setup of a LAMP development environment for vagrant.
@@ -71,6 +70,7 @@ If you're like me, you don't want to enter an ip address everytime you visit you
   * If you're on a Mac, your hosts file should be located inside the `/etc` directory.
 <br>
 <br>
+
 1. Open the `hosts` file with your preferred text editor as administrator.
 
 2. Add the vagrant file default ip address and your preferred domain name on the same line like so:

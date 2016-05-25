@@ -74,5 +74,8 @@ else
     done
 fi
 
+# remove trailing \r error in backup.sh
+sed -i 's/\r$//' /vagrant/sqldump/backup.sh
+
 # notify script completion
 echo -e "\e[34;1m$ENV environment is up and running...\e[0m\007"

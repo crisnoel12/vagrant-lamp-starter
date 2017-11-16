@@ -61,7 +61,7 @@ Depending on your internet connection, the setup will take some time.
 
 Once the install is finished you should see this webpage when you enter `192.168.33.10` in the browser:
 
-![Vagrant Lamp Starter Screenshot](https://lh3.googleusercontent.com/bR9_bu_1osMGEXyctwuIUftZ8w_xYpH_9knVIIxEiYfsgq75BSHgA4x51Dlo4Y_vxILs6N8HwEB3zjXQbqIahy9oRDAQjqTgJB6KeFDL2JA3quJE1hpMfYcq9xZqrh7AEyq8dDh61PaQqrukmtnlxtalrxI8flV2aiJSdqBZ_sY2emMV9X19hppgxo5Fhij_DowThh7owe7FtSybv2VN726wtg8roOjJs_B-GqCe6iArLbKOqh6cHyxrlCOONP9IN9bGUvEH4p_hRhA3apENs1-E0b-Ywx4Jz1Dnzyv-Yz5eV8qVNsFzU9M--ZG_az1260O1cPkkTIjWjnT864xWUUJS166fvlGe54g-ybh4XQfG9b5kq6UeNx52pdjraze4nkgJSjz0UXxlBtZVLYa2dORv0O9DTYzY4zMOweFzbBg-CcEwfo0C78_O0Z_5INAZFMbr9NW_s-5LP6yYsZchJ_7Dm2YdRh3rIKY1s5WfgrksdqEvdl2XUZFNLGnoTf2cpuTb4wATcX15EeM2jn1TI-ZeEHwiWufli64GQl6HgJHYJ_lOUqsoaIYiu5BelWXXHUmsa_loMQiundIY6LvlQ8sT7APULuc=w566-h346-no)
+[Vagrant Lamp Starter Screenshot](https://drive.google.com/file/d/1sJtxAF4BQMDrZwrlT6n1inWcgQgXEIDW/view?usp=sharing)
 
 ## Setting a Domain Name
 If you're like me, you don't want to enter an ip address everytime you visit your site. We can edit our hosts file and add a domain name that points to the Vagrantfile ip address `192.168.33.10`.

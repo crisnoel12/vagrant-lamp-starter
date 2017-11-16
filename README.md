@@ -4,10 +4,11 @@
 This is a beginner-friendly starter pack that will automate the setup of a LAMP development environment for vagrant.
 
 ## What's Included
-  * Linux Distro: Ubuntu 14.04 Server
+  * Ubuntu 16.04
   * Apache 2
   * Mysql
-  * PHP 5
+  * PHP 7
+  * Python 2.7
   * PhpMyAdmin
   * Git
   * Composer
@@ -114,3 +115,8 @@ If you want to completely remove the VM from your machine to save disk space, ru
     $ vagrant destroy
 
 The next time you run vagrant up, all your project files and databases will remain in tact, but any further configurations you made inside the shell will be gone. Edit the `lamp.sh` file for permanent configurations.
+
+## MySQL Default Credentials
+|USERNAME|PASSWORD|
+|--------|--------|
+|  root  |password|

@@ -10,7 +10,7 @@ OUTPUT_FOLDER='/vagrant/sqldump/'
 
 # Store your Databases in BACKUPS array
 for i in $DBA; do
-    if [[ "$i" != "information_schema" ]] && [[ "$i" != _* ]] && [[ "$i" != "mysql" ]] && [[ "$i" != "performance_schema" ]] && [[ "$i" != "phpmyadmin" ]] ; then
+    if [[ "$i" != "information_schema" ]] && [[ "$i" != _* ]] && [[ "$i" != "mysql" ]] && [[ "$i" != "performance_schema" ]] && [[ "$i" != "phpmyadmin" ]] && [[ "$i" != "sys" ]] ; then
         BACKUPS+=("$i")
     fi
 done

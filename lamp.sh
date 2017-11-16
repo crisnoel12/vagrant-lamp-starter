@@ -4,7 +4,7 @@
 ENV='LAMP'
 
 # packages to install
-PACKAGES=('apache2' 'php5' 'mysql-server' 'phpmyadmin' 'git')
+PACKAGES=('apache2' 'php' 'libapache2-mod-php' 'mysql-server' 'phpmyadmin' 'git')
 
 # default mysql/phpmyadmin password for root
 PASSWORD='password'
@@ -39,16 +39,10 @@ if ! [ -L /var/www/html ]; then
 fi
 
 # fix phpmyadmin mcrypt bug
-sudo php5enmod mcrypt
+sudo phpenmod mcrypt
 
 # enable mod_rewrite
 sudo a2enmod rewrite
-
-# enable display of php errors
-sudo sed -i 's/display_errors = Off/display_errors = On/' /etc/php5/apache2/php.ini
-
-# restart apache
-service apache2 restart
 
 # install Composer
 echo -e "\e[34;1mInstalling Composer\e[0m"
@@ -76,6 +70,12 @@ fi
 
 # remove trailing \r error in backup.sh
 sed -i 's/\r$//' /vagrant/sqldump/backup.sh
+
+# enable display of php errors
+sudo sed -i 's/display_errors = Off/display_errors = On/' /etc/php/7.0/apache2/php.ini
+
+# restart apache
+sudo service apache2 restart
 
 # notify script completion
 echo -e "\e[34;1m$ENV environment is up and running...\e[0m\007"

@@ -24,16 +24,16 @@
             content: "";
             position: absolute;
             border-top: 4px solid black;
-            width: 100%;
+            width: 80%;
             top: 50%;
         }
         h1:before{
-            right: 100%;
-            margin-right: 40px;
+            right: 80%;
+            margin-right: 80px;
         }
         h1:after{
-            left: 100%;
-            margin-left: 20px;
+            left: 80%;
+            margin-left: 80px;
         }
         .packages{
             position: absolute;
@@ -53,12 +53,13 @@
 <body>
     <h1>LAMP</h1>
     <div class="packages">
-        <h2>Default Packages:</h2>
+        <h2>Included Packages:</h2>
         <ul>
-            <li>Linux Distro: Ubuntu 14.04 Server</li>
+            <li>Ubuntu 16.04</li>
             <li>Apache 2</li>
-            <li>Mysql</li>
-            <li>PHP 5</li>
+            <li>MySQL</li>
+            <li>PHP 7</li>
+            <li>Python 2.7</li>
             <li>PhpMyAdmin</li>
             <li>Git</li>
             <li>Composer</li>
